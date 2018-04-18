@@ -126,4 +126,4 @@ meanHumanActivity<-dcast(fHumanActivity, subject+activityname ~ variable,
 names(meanHumanActivity)<-gsub("bodybody", "body",names(meanHumanActivity))
 
 # write the data frame out to a file named tidyData.csv
-fwrite(x = meanHumanActivity, file = "tidyData.csv", quote = FALSE)
+write.table(x = meanHumanActivity, file = "tidyData.txt", quote = FALSE)
