@@ -10,4 +10,4 @@ This script will:
 5. From the data set that is created a second independent tidy data set with
    the average of each variable for each activity and each subject.
 
-The produces a file name tidyData.csv
+The produces a file name tidyData.txt
